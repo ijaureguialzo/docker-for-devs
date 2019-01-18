@@ -2,7 +2,7 @@
 
 set -e
 
-echo "Pulling pchico83/ci..."
-docker pull pchico83/ci > /dev/null
+echo "Pulling widemos/ci..."
+docker pull widemos/ci > /dev/null
 echo "done!"
 docker-compose build web
